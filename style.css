@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    background-color: #82827e;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Adiciona a fonte do Google */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    color: #fff;
+    padding: 55px 0;
+}
+
+header a{
+    color: #d5d5d5;
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+}
+
+header a:hover{
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+
+.interface {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+.menu-desktop ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-desktop ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu-desktop ul li:last-child {
+    margin-right: 0;
+}
+
+header .btn-contato button{
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 0;
+    font-size: 18px;
+    background-color: #bd5bc6;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0px 0px 8px #8a4590;
+}
+
+/* Estilos para a seção do topo do site */
+.topo-do-site {
+    padding: 50px 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-topo-site img {
+    max-width: 100%;
+    height: auto;
+}
+
+.txt-topo-site {
+    max-width: 20%;
+    gap: 120px;
+}
+
+.txt-topo-site h1 {
+    font-size: 2.5em;
+}
+
+.txt-topo-site p {
+    font-size: 1.2em;
+}
+
+/* Estilos para a tag main */
+main {
+    padding: 100px 0; /* Adiciona um espaçamento ao redor do conteúdo */
+}
